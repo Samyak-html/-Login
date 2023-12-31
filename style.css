@@ -1,0 +1,99 @@
+body{
+    background:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    width: 98%;
+}
+.container{
+    height: 50vh;
+    width: 70vh;
+    background-color: rgb(255, 255, 255,0.6);
+    /* border: 7px rgb(255, 255, 255,0.6) solid; */
+    
+    background: 0,0,0,0.4;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    
+    
+}
+#logo{
+    
+    display: inline;
+    scale: 2;
+
+}
+*{
+    margin: 0;padding: 0;
+}
+
+.box{
+    border: 1px solid rgb(58, 58, 253);
+    
+    padding: 2vh;
+    width: 39vh;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.buttons{
+    margin-left: 4vh;
+}
+
+#submit{
+    background-color: #1877F2;
+    border: 2px solid #1877F2;
+    padding: 2vh;
+    width: 14vh;
+    opacity: 1;
+    font-weight: bold;
+    color: white;
+    border-radius:4vh ;
+    opacity: 1;
+    margin-bottom:1vh ;
+    display: inline;
+    text-decoration: none;
+}
+#submit:hover{
+    background-color:white;
+    border: 1px solid #1876f2;
+    color: black;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
